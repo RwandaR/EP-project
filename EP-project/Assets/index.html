@@ -1,49 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Everything Pink</title>
-    <link rel="stylesheet" href=".Assets/css/style.css">
-    <script defer src=".Assets/js/index.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everything Happy</title>
+
+  <!--font awesome cnd link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--customer css file link-->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav navbar-nav-scroll">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  
-  
 <body>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+<!-- header section starts here -->
+
+<header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+
+<a href="#" class="logo">Everything Happy<span>.</span></a>
+
+<nav class ="navbar">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#products">products</a>
+    <a href="#contact">contact</a>
+</nav>
+
+<div class="icons">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-shopping-cart"></a>
+    <a href="#" class="fas fa-user"></a>
+</div>
+
+
+</header>
+
+<!-- header section ends here -->
+
+
+
+
+
+
+<!-------home section starts------->
+
+<section class="home" id="home">
+    <div class="content">
+        <a href="#" class="btn">Shop Happy</a>
+    </div>
+
+
+
+</section>
+
+<!-------home section ends------->
+
+
+
+<!-- about section starts--------->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> about </span> us </h1>
+    <div class = "row">
+
+        <div class="about-container">
+            <img src="images/smileballs.png"></img>
+            <h3>Smile</h3>
+        </div>
+
+        <div class="content">
+            <h3>Happiness starts here</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quibusdam eveniet ullam sunt rerum sed. Error iusto delectus minus eaque accusantium doloremque itaque reprehenderit voluptates, facere laborum dignissimos distinctio commodi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum doloribus natus laborum illum tempore dolore vel, eaque laboriosam soluta deserunt impedit dolorem ea sapiente aperiam odio voluptates eius autem! Repellendus!</p>
+            <a href="#" class="btn">Shop Happy</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends--------->
+
+
+<!-- icons section starts-----> 
+<section class="icons-container">
+
+    <div class="icons">
+        <img src="images/shipping.png" alt="">
+        <div class="info">
+            <h3>free delivery</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/Returns.png" alt="">
+        <div class="info">
+            <h3>10 days returns</h3>
+            <span>moneyback guranteed</span>
+        </div>
+    </div>
+
+
+
+    <div class="icons">
+        <img src="images/secure.png" alt="">
+        <div class="info">
+            <h3>secure payments</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- icons section ends-----> 
+
+
+
+<!-- products section starts -->
+
+<section class="products" id="products">
+
+    <h1 class="heading">Happy <span>Products</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/Happy-rug.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Rug</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="images/color-socks.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Socks</h3>
+                <div class="price"> $14.99 <span>$19.99</span> </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/pink-slip.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Slippers</h3>
+                <div class="price"> $11.99 <span>$12.99</span> </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="images/makeup-bag.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Make-up Bag</h3>
+                <div class="price"> $7.99 <span>$12.99</span> </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/hat.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Hat</h3>
+                <div class="price"> $10.99 <span>$13.99</span> </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/mug.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Mug</h3>
+                <div class="price"> $5.99 <span>$7.99</span> </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/umbrella.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Umbrella</h3>
+                <div class="price"> $16.99 <span>$19.99</span> </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/tote-bag.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Happy Tote</h3>
+                <div class="price"> $11.99 <span>$14.99</span> </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+</section>
+
+
+
+<!-- products section ends -->
+
+
+review <section></section>
+
+
+
+
+
 </body>
-
-
-
-
-
 </html>
