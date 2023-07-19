@@ -1,2 +1,2 @@
 # EP-project
-Everything Pink single project 
+Everything Happy single project 
