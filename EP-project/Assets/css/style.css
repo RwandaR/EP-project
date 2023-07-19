@@ -1,5 +1,5 @@
 :root{
-     --pink:#e84393;
+     --pink:#cb4195;
 }
 
 
@@ -34,23 +34,45 @@ section{
 }
 
 .heading span{
-    color: var(--pink);
+    color: #cb4195;
 }
 
+
+.btn-home{
+    display:inline-block;
+    position: absolute;
+    margin-top: -13rem;
+    margin-left: 60rem;
+    border-radius: 5rem;
+    background: #cb4195;
+    color: #fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 3.7rem;
+    /* display:flex;
+    justify-content: flex-end;
+    flex-direction: row; */
+    
+}
 
 .btn{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: #333;
+    background: #cb4195;
     color: #fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
     font-size: 1.7rem;
+    
 }
 
 .btn:hover{
-    background: var(--pink);
+    background: #ffa7e4;
+}
+
+.btn-home:hover{
+    background: #ffa7e4;
 }
 
 
@@ -108,6 +130,8 @@ header #toggler{
     display: flex;
     align-items: center;
     min-height: 100vh;
+    padding-top: 90rem;
+    padding-bottom: -30rem;
     max-height: fit-content;
     background:url(../images/Everything-Happy.png) no-repeat;
     background-size: cover;
@@ -184,7 +208,7 @@ header #toggler{
 }
 
 .about .row .content p{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color:#999;
     padding: .5rem 0;
     padding-top: 1rem;
@@ -244,16 +268,16 @@ header #toggler{
 }
 
 
-.products .box-container .box .discount{
+/* .products .box-container .box .discount{
     position: absolute;
     top: 1rem; left: 1rem;
-    padding: 7rem 1rem;
+    padding: 6rem 1rem;
     font-size: 2rem;
     color: var(--pink);
     background: rgba(225, 51, 153, .05);
     z-index: 1;
     border-radius: .5rem;
-}
+} */
 
 .products .box-container .box .image{
     position: relative;
