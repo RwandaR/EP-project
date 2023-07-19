@@ -189,7 +189,7 @@ header #toggler{
 /* Banner on about us pic */
 .about .row .about-container h3{
     position:absolute;
-    top: 50%; transform: translateY(-50%);
+    top: 50%; transform: translateY(-30%);
     font-size: 3rem;
     /* color: #333; */
     background: #fff9e2;
